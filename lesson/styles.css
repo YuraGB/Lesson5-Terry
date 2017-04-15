@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  height: 75px;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  flex: 10;
+}
+
+.links {
+  flex: 1;
+}
+.contextMenu {
+  position: absolute;
+  background-color: #2C2C2C;
+}
+.contextMenu a{
+  color: white;
+}
+.add a{
+  display: flex;
+  flex-direction: column;
+  align-content: right;
+  font-size: small;
+}
+#Dialog{
+  position: fixed;
+  left: 3em;
+  top: 5em;
+  background-color: #2C2C2C;
+  width: 30em;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+input{
+  display: block;
+  margin: 10px;
+}
